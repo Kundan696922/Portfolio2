@@ -310,6 +310,7 @@ section {
     border-radius: 0.4rem;
     color: var(--main-1);
     font-weight: 700;
+    width: 50%;
 }
 
 
