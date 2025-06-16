@@ -299,6 +299,16 @@ section {
     color: var(--main-4);
 }
 
+.contact-p{
+    font-size: 1.4rem;
+}
+
+@media (max-width: 768px){
+    .contact-p {
+        font-size: 0.9rem;
+    }
+}
+
 .contact-me {
     color: var(--main-1);
     font-weight: 700;
