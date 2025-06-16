@@ -306,25 +306,9 @@ section {
 
 .contact-container {
     background-color: var(--main-3);
-    padding: 2rem;
-    border-radius: 0.4rem;
     color: var(--main-1);
-    font-weight: 700;
-    width: 50%;
 }
 
-
-@media (min-width: 1024px) and (max-width: 1440px) {
-    .contact-container {
-        width: 50%;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 768px) {
-    .contact-container {
-        width: 80%;
-    }
-}
 
   input[type=submit] {
     color: var(--main-2);
