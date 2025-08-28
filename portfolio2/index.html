@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" href="./assets/dp_logo.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,17 +40,19 @@
 <section id="home" class="text-center min-vh-100 d-flex justify-content-center align-items-center">
   <div class="container">
     <h1 class="display-4">Hey Iam <span class="name">Kundan</span></h1>
-    <p class="lead designation-full">A <span class="designation">Front-End</span> Developer</p>
+    <p class="lead designation-full">A <span class="designation">MERN Stack</span> Developer</p>
     <img src="./assets/my_dp.png" class="dp" alt="My_DP">
-    <p class="mt-3 display-6"><strong class="skills">Skills:</strong> 
-        <i class="fa-brands fa-html5" class="home-icon"></i> 
-          <i class="fa-brands fa-css3-alt" class="home-icon"></i>
-          <i class="fa-brands fa-bootstrap"></i>
-          <i class="fa-brands fa-js" class="home-icon"></i>
-          <i class="fa-brands fa-react home-icon"></i>
-          <i class="fa-solid fa-code" class="home-icon"></i>
-          <i class="fa-solid fa-database" class="home-icon"></i>
-          <i class="fa-brands fa-python" class="home-icon"></i>
+    <p class="mt-3 display-6"><strong class="skills">Skills:</strong>   
+          <i class="devicon-html5-plain"></i>
+          <i class="devicon-css3-plain"></i>
+          <i class="devicon-bootstrap-plain"></i>
+          <i class="devicon-tailwindcss-original"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-react-original-wordmark"></i>
+          <i class="devicon-nodejs-plain-wordmark"></i>
+          <i class="devicon-express-original"></i>
+          <i class="devicon-mongodb-plain-wordmark"></i>
+
     </p>
     <a href="./assets/Kundan_cv.pdf" class="btn mt-3 resume" target="_blank">Download Resume</a>
   </div>
@@ -62,9 +65,8 @@
     <div class="row justify-content-center">
       <div class="col-10 col-md-10 col-lg-8">
         <p class="fs-6 fs-md-5 text-start about-content">
-          I'm a passionate front-end developer with a keen interest in creating visually appealing and user-friendly web
-          interfaces. I enjoy bringing designs to life and constantly learning new technologies to enhance my development
-          skills.
+          I'm a passionate MERN stack developer with a keen interest in building full-stack web applications. I enjoy creating
+          scalable backends, intuitive frontends, and continuously learning new technologies to enhance my development skills
         </p>
         <p class="fs-6 fs-md-5 text-start about-content">
           Besides coding, I love exploring new games and watching movies. Gaming helps me develop problem-solving skills
@@ -116,9 +118,31 @@
         <!-- Project 1 -->
         <div class="col-md-4 mb-4">
           <div class="card h-100">
+            <img src="./assets/noteboard.png" class="card-img-top" alt="Expense Tracker App">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fa-solid fa-note-sticky project-title-logo glow-icon"></i> MERN Stack Note Taking App</h5>
+              <p class="card-text">
+                NoteBoard is a Full-Stack Note Taking App built with the MERN stack.
+              </p>
+              <p><strong>Tools:</strong> React, Tailwind, Node.js, Express, MongoDb</p>
+              <a href="https://noteboard-6618.onrender.com/" class="btn btn-sm demo">
+                <i class="fa-solid fa-laptop-code glow-icon"></i> Demo
+              </a>
+              <a href="https://github.com/Kundan696922/noteboard" class="btn btn-sm github">
+                <i class="fa-brands fa-github glow-icon"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Project 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
             <img src="./assets/cinescope.png" class="card-img-top" alt="Expense Tracker App">
             <div class="card-body">
-              <h5 class="card-title"><i class="fa-solid fa-clapperboard project-title-logo glow-icon"></i> Movie Discovery Web App</h5>
+              <h5 class="card-title"><i class="fa-solid fa-clapperboard project-title-logo glow-icon"></i> Movie Discovery Web
+                App</h5>
               <p class="card-text">
                 CineScope is a sleek and responsive movie discovery app built with React, Vite, and Bootstrap.
               </p>
@@ -132,8 +156,8 @@
             </div>
           </div>
         </div>
-        
-        <!-- Project 2 -->
+
+        <!-- Project 3 -->
         <div class="col-md-4 mb-4">
           <div class="card h-100">
             <img src="./assets/budgetwise.png" class="card-img-top" alt="Expense Tracker App">
@@ -153,30 +177,7 @@
           </div>
         </div>
   
-        <!-- Project 3 -->
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <img src="./assets/hireflow.png" class="card-img-top" alt="HireFlow Project Screenshot">
-            <div class="card-body">
-              <h5 class="card-title">
-                <i class="fas fa-briefcase project-title-logo glow-icon"></i> Modern Job Search Platform
-              </h5>
-              <p class="card-text">
-                HireFlow is a modern job search platform built with React and Bootstrap
-                and a responsive UI.
-              </p>
-              <p><strong>Tools:</strong> React, HTML, Bootstrap</p>
-              <a href="https://hireflow22.netlify.app/" class="btn btn-sm demo">
-                <i class="fa-solid fa-laptop-code glow-icon"></i> Demo
-              </a>
-              <a href="https://github.com/Kundan696922/hireflow" class="btn btn-sm github">
-                <i class="fa-brands fa-github glow-icon"></i> GitHub
-              </a>
-            </div>
-          </div>
-        </div>
-        
-  
+       
         <!-- Project 4 -->
         <div class="col-md-4 mb-4">
           <div class="card h-100">
