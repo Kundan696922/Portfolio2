@@ -1,1 +1,1 @@
-https://kundan-goyary.netlify.app/
+www.kundangoyary.me
